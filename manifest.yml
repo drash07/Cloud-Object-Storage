@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mystorage
+  host: mystorage
+  disk_quota: 1024M
+  buildpack: python_buildpack
+  
+  services: 
+  - Cloudant NoSQL DB-62
+  
